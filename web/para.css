@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+   background-color:#a2c4ec ;
+   text-align: center;
+   align-items: center;
+   width: 640;
+   font-family: Arial;
+}
+
+.body-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.title {
+    margin-top: 40px;
+    color: #f7dcdc;
+    font-weight: bold;
+    font-size: 40px;
+    align-items: center;
+}
+
+.select-temperature {
+    display: flex;
+    margin-top: 70px;
+    letter-spacing: 100px;
+    font-size: 20px;
+    align-items: center;
+    text-align:  center;
+    justify-content: space-between;
+}
+
+select {
+    color: rgb(173, 131, 131);
+    font-size: 22px;
+    border: 4px solid #FFFFFF;
+    background-color: #151D26;
+    border-radius: 6px;
+    height: 40px;
+    width: 150px;
+    margin-left: 100px;
+    margin-right: 100px;
+    align-items: center;
+    transition: all .2s ease-in-out;
+}
+
+select:focus {
+    outline: none;
+    background-color: #202D3B;
+}
+
+
+.text-complete {
+    color: white;
+    margin-top: 5px;
+    font-size: 20px;
+}
+
+.input-container {
+    margin-top: 20px;
+}
+
+.input-value {
+    border: none;
+    color: white;
+    text-align: center;
+    font-size: 24px;
+    width: 370px;
+    outline: none;
+    border-bottom: 2px solid #72b0df;
+    background-color: #151d26;
+    margin: 15px 0px 10px 0px;
+    transition: all .3s ease-in-out;
+}
+
+.input-value:focus {
+    border-bottom: 30px solid #72b0df;
+}
+
+.result {
+    margin-top: 20px;
+    align-items: center;
+    font-size: 24px;
+    color: white;
+}
+
+.btn {
+    border: none;
+    margin: 30px;
+    background-color: #72b0df;
+    border: 2px solid #437CA8;
+    color: white;
+    width: 330px;
+    font-size: 22px;
+    border-radius: 10px;
+    height: 48px;
+    box-shadow: 0px 5px 0px #437CA8;
+    transition: all .2s ease-in-out;
+}
+
+@media screen and (max-width: 768px) {
+    .body-container {
+        position: absolute;
+        align-items: center;
+        top: 0%;
+        left: 15%;
+        transform: translate(-13%, 0%);
+        margin-top: 30px;
+    }
+}
